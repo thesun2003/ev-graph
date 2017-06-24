@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import config from './config.json';
 import axios from 'axios';
 import logo from './logo.svg';
 import './App.css';
@@ -13,7 +14,7 @@ class TotalAmount extends Component {
   }
 
   componentDidMount() {
-    axios.get('/api/get-actual/')
+    axios.get(config.api_url + '/get-actual/')
     .then(res => {
       const actual_number = parseInt(res.data.real_amount);
       this.setState({ actual_number });
