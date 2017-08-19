@@ -4,9 +4,14 @@
   "private": true,
   "dependencies": {
     "axios": "^0.16.2",
+    "everpolate": "0.0.3",
+    "extrapolate": "^1.0.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-google-charts": "^1.5.5"
+    "react-google-charts": "^1.5.5",
+    "react-load-script": "0.0.6",
+    "react-tableau-report": "^1.0.4",
+    "tableau-react": "^1.0.2"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"
